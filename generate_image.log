@@ -1,0 +1,16 @@
+🚀 第一步：提交图片生成任务...
+📝 读取提示词: Mathematical computation and plotting tools with symbolic math, calculus, and visualization
+✅ 任务提交完成
+📄 响应: {'code': 0, 'data': {'recordId': 2441672, 'taskId': '2441672', 'taskIdList': [3422498], 'taskUuid': None}, 'message': '操作成功', 'requestId': '2b565c5a-4531-44c6-a1d7-1dbed727c56e', 'success': True, 'traceback': None}
+📋 任务ID: 2441672
+⏳ 第二步：等待图片生成完成...
+⏳ 检查任务状态... (0/120秒)⏳ 检查任务状态... (5/120秒)⏳ 检查任务状态... (10/120秒)⏳ 检查任务状态... (15/120秒)⏳ 检查任务状态... (20/120秒)
+✅ 图片生成完成！
+🔍 第三步：查询生成结果...
+📄 查询响应: {'code': 0, 'data': {'pageNumber': 1, 'pageSize': 1, 'records': [{'historyId': 3432287, 'image': {'checkpoint': 'Qwen Image_v1', 'checkpointModelVersionId': 44106, 'guidanceScale': 4.0, 'height': 1328, 'imageId': 3571307, 'imageUrl': 'https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/b26fb2fe38b146329d3f2248fa64be6f.jpeg', 'loraModelVersionIds': None, 'modelBriefInfos': None, 'modelId': 5505, 'modelName': 'Qwen Image', 'modelNameList': None, 'negativePrompt': 'lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry', 'numInferenceSteps': 30, 'predictType': 'TXT_2_IMG', 'prompt': '展现一款先进的数学计算软件界面，在这个界面里集成了符号数学功能以及微积分运算工具，并配备直观的数据可视化模块用于绘制图形及图表解析结果。\\n\\n屏幕中心是一个宽敞的工作区，在这里可以执行复杂的数学表达式，并显示详细的求解步骤及答案；左侧栏列出了各种符号运算选项——包括代数变换规则及矩阵运算能力——方便使用者快速选取应用到当前问题之中。\\n\\n右侧则是实时更新的结果面板，在这里不仅能看到数值结果还能看到对应的符号形式表达式；下方集成了一套强大的微积分工具箱——涵盖极限计算至多元函数积分处理——每个工具都有清晰的操作说明图标。\\n\\n此外，在工作区上方有一排图表按钮供选择不同的可视化类型—折线图、散点图或是三维立体图形—以便直观理解函数行为及其变化趋势。\\n\\n整个软件界面采用深色调主题搭配高亮提示区域的设计理念，并辅以人性化的交互体验布局使操作更为便捷高效。\\n\\n当一项计算完成时，默认会在合适的位置自动生成相应的图表，并标配有精确的数据标记以及轴线说明，在保持专业性的同时兼顾易读性。”,', 'sampler': 'Euler a', 'seed': 1287835901, 'subseed': None, 'subseedStrength': None, 'timeTaken': 14260.662317276001, 'vaeModelVersionId': None, 'width': 1328}, 'status': 'SUCCEED'}], 'totalPage': 905, 'totalRow': 905}, 'message': '操作成功', 'requestId': '0c3c0027-f3d0-427f-b46d-68a111193b27', 'success': True, 'traceback': None}
+🖼️ 获取到图片URL: https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/b26fb2fe38b146329d3f2248fa64be6f.jpeg
+📥 第四步：下载图片...
+✅ 图片下载成功！(使用 requests)
+📁 保存位置: /Users/jiashuowang/MCPs/提示词项目/iflow_auto_import/data/logo/MCP-CN-PRE-5XZNY12.jpg
+📊 文件大小: 0.10 MB
+🎉 脚本执行完成！

@@ -1,0 +1,34 @@
+  × No solution found when resolving tool dependencies:
+  ╰─▶ Because iflow-mcp-abhiphile-fermat-mcp was not found in the package
+      registry and you require iflow-mcp-abhiphile-fermat-mcp, we can conclude
+      that your requirements are unsatisfiable.
+⏰ 等待2分钟后开始执行...
+🎯 配置文件: /Users/jiashuowang/MCPs/提示词项目/iflow_auto_import/data/abhiphile-fermat-mcp/abhiphile-fermat-mcp_request_body.json
+🎯 结果CSV文件: /Users/jiashuowang/MCPs/提示词项目/iflow_auto_import/process_result/abhiphile-fermat-mcp_process_result.csv
+🔧 最大并发服务器数: 3
+🚀 MCP服务器L1测试工具
+📊 配置: 最大并发服务器数=3
+================================================================================
+使用本地配置文件: /Users/jiashuowang/MCPs/提示词项目/iflow_auto_import/data/abhiphile-fermat-mcp/abhiphile-fermat-mcp_request_body.json
+结果将更新到CSV文件: /Users/jiashuowang/MCPs/提示词项目/iflow_auto_import/process_result/abhiphile-fermat-mcp_process_result.csv
+
+处理配置文件: /Users/jiashuowang/MCPs/提示词项目/iflow_auto_import/data/abhiphile-fermat-mcp/abhiphile-fermat-mcp_request_body.json
+============================================================
+  ✅ 成功加载本地文件: /Users/jiashuowang/MCPs/提示词项目/iflow_auto_import/data/abhiphile-fermat-mcp/abhiphile-fermat-mcp_request_body.json
+  ✅ 获取到serverConfig
+  📋 找到 1 个MCP服务器配置
+
+  🧪 测试服务器: Fermat MCP
+  🚀 启动命令: uvx --from iflow-mcp_abhiphile_fermat-mcp fmcp
+  🔄 初始化MCP会话...
+  ❌ 测试失败: unhandled errors in a TaskGroup (1 sub-exception)
+  📊 配置文件测试结果: failed
+  ✅ 已更新CSV文件中 1 行数据的status字段为: failed
+
+📊 测试结果摘要 (共 1 个服务器)
+================================================================================
+❌ Fermat MCP (unhandled errors in a TaskGroup (1 sub-exception))
+
+成功率: 0/1 (0.0%)
+
+❌ L1测试完成，测试失败
